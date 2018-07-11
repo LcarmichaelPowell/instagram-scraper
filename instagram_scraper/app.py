@@ -82,7 +82,7 @@ class InstagramScraper(object):
         default_attr = dict(username='', usernames=[], filename=None,
                             login_user=None, login_pass=None,
                             destination='./', retain_username=False, interactive=False,
-                            quiet=False, maximum=0, media_metadata=False, latest=False,
+                            quiet=False, maximum=0, media_metadata=True, latest=False,
                             latest_stamps=False,
                             media_types=['image', 'video', 'story-image', 'story-video'],
                             tag=False, location=False, search_location=False, comments=False,
